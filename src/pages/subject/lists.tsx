@@ -100,7 +100,7 @@ const SubjectsList = () => {
                     <div className="flex gap-2 w-full sm:w-auto">
                         <Select value={selectedDepartment} onValueChange={setSelectedDepartment}>
                             <SelectTrigger>
-                                <SelectValue placeholder="Filter by depertment"/>
+                                <SelectValue placeholder="Filter by department"/>
                             </SelectTrigger>
                             <SelectContent>
                                 <SelectItem value="all"
